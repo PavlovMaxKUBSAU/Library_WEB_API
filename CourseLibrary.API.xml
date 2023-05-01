@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CourseLibrary.API</name>
+    </assembly>
+    <members>
+        <member name="M:CourseLibrary.API.Controllers.AuthorCollectionsController.GetAuthorCollection(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Get course collection of the author by his/her id
+            </summary>
+            <param name="ids">Id of the author</param>
+            <returns>Id of the collection</returns>
+            <remarks>Request: 3fa85f64-5717-4562-b3fc-2c963f66afa6\
+            \
+            Response code: 200\
+            RESPONSE BODY</remarks>
+        </member>
+        <member name="M:CourseLibrary.API.Controllers.AuthorCollectionsController.CreateAuthorCollection(System.Collections.Generic.IEnumerable{CourseLibrary.API.Models.AuthorForCreationDto})">
+            <summary>
+            Set the course collection to current author
+            </summary>
+            <param name="authorCollection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CourseLibrary.API.Controllers.AuthorsController.GetAuthors(CourseLibrary.API.ResourceParameters.AuthorsResourceParameters)">
+            <summary>
+            Head??
+            </summary>
+            <param name="authorsResourceParameters"></param>
+            <returns>I don't know</returns>
+        </member>
+        <member name="M:CourseLibrary.API.Controllers.AuthorsController.GetAuthor(System.Guid)">
+            <summary>
+            Returns an author by his/her Id
+            </summary>
+            <param name="authorId">Id of the author</param>
+            <returns>Author's params</returns>
+        </member>
+        <member name="M:CourseLibrary.API.Controllers.CoursesController.GetCoursesForAuthor(System.Guid)">
+            <summary>
+            Get courses list for the author
+            </summary>
+            <param name="authorId"></param>
+            <returns>List of courses</returns>
+        </member>
+        <member name="M:CourseLibrary.API.Controllers.CoursesController.GetCourseForAuthor(System.Guid,System.Guid)">
+            <summary>
+            Match author id and course id
+            </summary>
+            <param name="authorId"></param>
+            <param name="courseId"></param>
+            <returns>??????</returns>
+        </member>
+        <member name="P:CourseLibrary.API.Models.AuthorDto.Id">
+            <summary>
+            Id of the author
+            </summary>
+        </member>
+        <member name="P:CourseLibrary.API.Models.AuthorDto.Name">
+            <summary>
+            Name of the author
+            </summary>
+        </member>
+        <member name="P:CourseLibrary.API.Models.AuthorDto.Age">
+            <summary>
+            Author's age
+            </summary>
+        </member>
+        <member name="P:CourseLibrary.API.Models.AuthorDto.MainCategory">
+            <summary>
+            MainCategory is taken by the author 
+            </summary>
+        </member>
+    </members>
+</doc>
